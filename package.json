@@ -1,0 +1,37 @@
+{
+  "name": "discordbot-mdn-duh",
+  "version": "1.0.0",
+  "description": "A MDN helper!",
+  "author": "David Sevilla Martín <dsevilla192@icloud.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/**/* --config .eslintrc.json",
+    "validate": "npm ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datitisev/DiscordBot-YappyTrello.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datitisev/DiscordBot-YappyTrello/issues"
+  },
+  "homepage": "https://github.com/datitisev/DiscordBot-YappyTrello#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "discord.js": "^9.3.0",
+    "moment": "^2.15.1",
+    "moment-duration-format": "^1.3.0",
+    "performance-now": "^0.2.0",
+    "request": "^2.76.0",
+    "to-markdown": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "precommit-hook": "^3.0.0"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
