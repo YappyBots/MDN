@@ -5,6 +5,7 @@
   "author": "David Sevilla Martín <dsevilla192@icloud.com>",
   "main": "index.js",
   "scripts": {
+    "start": "node --harmony index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint lib/**/* --config .eslintrc.json",
     "validate": "npm ls"
