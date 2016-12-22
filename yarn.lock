@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@risingstack/trace@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@risingstack/trace/-/trace-3.0.0.tgz#a764cecc6da6711b4f3dca3396468c78c9be7e38"
+"@risingstack/trace@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@risingstack/trace/-/trace-3.0.2.tgz#112e1c515392dbb27a9327b1222cdf57223347da"
   dependencies:
     bl "1.1.2"
     continuation-local-storage "3.2.0"
@@ -358,17 +358,17 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-debug@2, debug@^2.1.1, debug@^2.2.0, debug@~2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
-  dependencies:
-    ms "0.7.1"
-
-debug@2.3.3:
+debug@2, debug@2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.3.3.tgz#40c453e67e6e13c901ddec317af8986cda9eff8c"
   dependencies:
     ms "0.7.2"
+
+debug@^2.1.1, debug@^2.2.0, debug@~2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
+  dependencies:
+    ms "0.7.1"
 
 deep-extend@~0.4.0:
   version "0.4.1"
@@ -1103,13 +1103,9 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-nan@2.4.x:
+nan@2.4.x, nan@^2.0.5, nan@^2.3.2:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
-
-nan@^2.0.5, nan@^2.3.2:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.3.5.tgz#822a0dc266290ce4cd3a12282ca3e7e364668a08"
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -1309,7 +1305,7 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-request, request@^2.55.0, request@^2.75.0:
+request@^2.55.0, request@^2.75.0, request@^2.76.0:
   version "2.76.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.76.0.tgz#be44505afef70360a0436955106be3945d95560e"
   dependencies:
