@@ -8,6 +8,10 @@
     "start": "node --harmony index",
     "lint": "eslint lib/**/* --config .eslintrc.json"
   },
+  "engines": {
+   "node": "^7.10.0",
+   "npm": "^4.2.0"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datitisev/DiscordBot-YappyTrello.git"
