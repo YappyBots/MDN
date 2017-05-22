@@ -9,9 +9,9 @@
     "lint": "eslint lib/**/* --config .eslintrc.json"
   },
   "engines": {
-   "node": "^7.10.0",
-   "npm": "^4.2.0"
- },
+    "node": "^7.10.0",
+    "npm": "^4.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datitisev/DiscordBot-YappyTrello.git"
@@ -25,6 +25,7 @@
     "@risingstack/trace": "^3.6.2",
     "chalk": "^1.1.3",
     "discord.js": "github:hydrabolt/discord.js",
+    "mkdirp": "^0.5.1",
     "moment": "^2.18.1",
     "moment-duration-format": "^1.3.0",
     "performance-now": "^2.1.0",
